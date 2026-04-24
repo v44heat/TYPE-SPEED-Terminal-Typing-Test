@@ -28,11 +28,8 @@
 
 ## Demo
 
-**[Live Demo →](https://your-username.github.io/type-speed)**
+**[Live Demo →](https://type-speed-terminal-typing-test.vercel.app/)**
 
-*(Replace the link above with your GitHub Pages URL after deployment.)*
-
----
 
 ## Features
 
@@ -108,45 +105,6 @@ npx serve .
 Then visit `http://localhost:8080/typing-speed-test.html`.
 
 ---
-
-## Deployment
-
-### GitHub Pages (recommended — free & instant)
-
-1. Push the repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Source**, select `main` branch and `/ (root)`.
-4. Click **Save**.
-5. GitHub Pages will publish the site at `https://your-username.github.io/type-speed/typing-speed-test.html`.
-
-To serve it at the root URL, rename the file to `index.html` before pushing:
-
-```bash
-mv typing-speed-test.html index.html
-git add .
-git commit -m "rename to index.html for GitHub Pages"
-git push
-```
-
-Your site will now be live at `https://your-username.github.io/type-speed/`.
-
-### Netlify (drag & drop)
-
-1. Go to [netlify.com](https://netlify.com) and sign in.
-2. Drag the project folder onto the Netlify dashboard.
-3. Done — live in seconds with a random subdomain (e.g., `https://type-speed-abc.netlify.app`).
-
-### Vercel
-
-```bash
-npm i -g vercel
-vercel --prod
-```
-
-### Any Static Host
-
-Upload `typing-speed-test.html` (or `index.html`) to any host that serves static files:
-Cloudflare Pages, Surge.sh, Firebase Hosting, Amazon S3 + CloudFront, etc.
 
 ---
 
