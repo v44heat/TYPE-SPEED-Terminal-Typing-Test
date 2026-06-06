@@ -176,59 +176,7 @@ Everything is self-contained in a single HTML file:
 
 ---
 
-## Customization
 
-### Adding Quotes
-
-Open `typing-speed-test.html` and add strings to the `QUOTES` array near the top of the `<script>` block:
-
-```js
-const QUOTES = [
-  "Your new quote goes here, with real punctuation.",
-  // ... existing quotes
-];
-```
-
-Keep quotes between 20 and 150 words for best playability. Include commas, periods, apostrophes, and capitals — they make for realistic practice.
-
-### Changing Colors
-
-All colors are CSS custom properties at the top of `<style>`. Edit them to retheme the entire app:
-
-```css
-:root {
-  --bg:    #0a0e0a;   /* page background */
-  --green: #39ff14;   /* primary accent / correct color */
-  --red:   #ff3131;   /* error color */
-  --cyan:  #00e5ff;   /* S-grade / personal best color */
-  /* ...etc */
-}
-```
-
-### Changing Default Mode
-
-Change the initial `mode` value in the `state` object:
-
-```js
-const state = {
-  mode: 30,   // 15 | 30 | 60 | 0 (quote)
-  // ...
-};
-```
-
-### Adjusting Grade Thresholds
-
-Edit `calcGrade()` to raise or lower the bar:
-
-```js
-function calcGrade(wpm, acc) {
-  if (wpm >= 80 && acc >= 95) return 'S';
-  if (wpm >= 60 && acc >= 90) return 'A';
-  if (wpm >= 40 && acc >= 85) return 'B';
-  if (wpm >= 20 && acc >= 75) return 'C';
-  return 'F';
-}
-```
 
 ---
 
