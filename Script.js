@@ -206,9 +206,7 @@ function updateTimerDisplay() {
   liveWpm.textContent = '--';
 }
 
-/* ============================================================
-   TYPING INPUT HANDLER
-   ============================================================ */
+
 typingInput.addEventListener('input', handleInput);
 typingInput.addEventListener('paste', e => e.preventDefault()); // disable paste
 typingInput.addEventListener('keydown', handleKeydown);
