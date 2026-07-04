@@ -206,20 +206,6 @@ Average professional typists score 55–80 WPM. Average person types 40–55 WPM
 
 ---
 
-## Browser Support
-
-| Browser | Support |
-|---|---|
-| Chrome 90+ | ✅ Full |
-| Firefox 88+ | ✅ Full |
-| Safari 15+ | ✅ Full |
-| Edge 90+ | ✅ Full |
-| Mobile browsers | ⚠️ Works, physical keyboard recommended |
-
-Requires: `localStorage`, `performance.now()`, CSS custom properties, `AudioContext` (optional — for sound only).
-
----
-
 ## Contributing
 
 Contributions are welcome! Ideas for improvement:
